@@ -17,7 +17,6 @@ const mainFeaturedPost = {
   title: 'AI 화재 탐지 시스템, Last7',
   description:
     "화재 인명피해를 줄이는 핵심은 조기 탐지 입니다. 기존의 온도 및 연기를 통한 감지 시스템에서 한 단계 진화한 영상 감지 시스템으로 여러분의 소중한 생명을 지키겠습니다.",
-  image: './images/fire1.gif',
   imgText: 'main image description',
 };
 

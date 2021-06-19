@@ -6,6 +6,9 @@ const useStyles = makeStyles((theme)=>({
         display: "flex",
         justifyContent: "center",
         padding: theme.spacing(3)
+    },
+    imgSize:{
+        width: "100%"
     }
 }))
 
@@ -13,7 +16,7 @@ function Role() {
     const classes = useStyles();
     return (
         <Container className={classes.root}>
-            <img src="./images/role.jpg" alt="" />            
+            <img src="./images/role.jpg" alt="" className={classes.imgSize}/>            
         </Container>
     )
 }
